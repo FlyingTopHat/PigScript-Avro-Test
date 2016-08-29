@@ -1,0 +1,18 @@
+{
+    "name": "Person",
+    "namespace": "com.flyingtophat.pigavrotest.avroschema",
+    "doc": "Record for a person",
+    "type": "record",
+    "fields": [
+        {
+            "name": "name",
+            "doc": "Person's name",
+            "type": "string"
+        },
+        {
+            "name": "age",
+            "doc": "Person's Age",
+            "type": "int"
+        }
+    ]
+}
