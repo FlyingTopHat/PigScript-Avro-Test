@@ -1,6 +1,6 @@
 {
     "name": "Person",
-    "namespace": "com.flyingtophat.pigavrotest.avroschema",
+    "namespace": "uk.co.sketchingdev.pigavrotest.avroschema",
     "doc": "Record for a person",
     "type": "record",
     "fields": [

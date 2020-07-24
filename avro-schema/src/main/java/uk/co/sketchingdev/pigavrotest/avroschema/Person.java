@@ -3,7 +3,7 @@
  *
  * DO NOT EDIT DIRECTLY
  */
-package com.flyingtophat.pigavrotest.avroschema;
+package uk.co.sketchingdev.pigavrotest.avroschema;
 
 import org.apache.avro.specific.SpecificData;
 
@@ -11,8 +11,8 @@ import org.apache.avro.specific.SpecificData;
 /** Record for a person */
 @org.apache.avro.specific.AvroGenerated
 public class Person extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
-  private static final long serialVersionUID = 3919219532868112458L;
-  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"Person\",\"namespace\":\"com.flyingtophat.pigavrotest.avroschema\",\"doc\":\"Record for a person\",\"fields\":[{\"name\":\"name\",\"type\":\"string\",\"doc\":\"Person's name\"},{\"name\":\"age\",\"type\":\"int\",\"doc\":\"Person's Age\"}]}");
+  private static final long serialVersionUID = -3637302680142571631L;
+  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"Person\",\"namespace\":\"uk.co.sketchingdev.pigavrotest.avroschema\",\"doc\":\"Record for a person\",\"fields\":[{\"name\":\"name\",\"type\":\"string\",\"doc\":\"Person's name\"},{\"name\":\"age\",\"type\":\"int\",\"doc\":\"Person's Age\"}]}");
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
   /** Person's name */
   @Deprecated public java.lang.CharSequence name;
@@ -94,8 +94,8 @@ public class Person extends org.apache.avro.specific.SpecificRecordBase implemen
    * Creates a new Person RecordBuilder.
    * @return A new Person RecordBuilder
    */
-  public static com.flyingtophat.pigavrotest.avroschema.Person.Builder newBuilder() {
-    return new com.flyingtophat.pigavrotest.avroschema.Person.Builder();
+  public static uk.co.sketchingdev.pigavrotest.avroschema.Person.Builder newBuilder() {
+    return new uk.co.sketchingdev.pigavrotest.avroschema.Person.Builder();
   }
 
   /**
@@ -103,8 +103,8 @@ public class Person extends org.apache.avro.specific.SpecificRecordBase implemen
    * @param other The existing builder to copy.
    * @return A new Person RecordBuilder
    */
-  public static com.flyingtophat.pigavrotest.avroschema.Person.Builder newBuilder(com.flyingtophat.pigavrotest.avroschema.Person.Builder other) {
-    return new com.flyingtophat.pigavrotest.avroschema.Person.Builder(other);
+  public static uk.co.sketchingdev.pigavrotest.avroschema.Person.Builder newBuilder(uk.co.sketchingdev.pigavrotest.avroschema.Person.Builder other) {
+    return new uk.co.sketchingdev.pigavrotest.avroschema.Person.Builder(other);
   }
 
   /**
@@ -112,8 +112,8 @@ public class Person extends org.apache.avro.specific.SpecificRecordBase implemen
    * @param other The existing instance to copy.
    * @return A new Person RecordBuilder
    */
-  public static com.flyingtophat.pigavrotest.avroschema.Person.Builder newBuilder(com.flyingtophat.pigavrotest.avroschema.Person other) {
-    return new com.flyingtophat.pigavrotest.avroschema.Person.Builder(other);
+  public static uk.co.sketchingdev.pigavrotest.avroschema.Person.Builder newBuilder(uk.co.sketchingdev.pigavrotest.avroschema.Person other) {
+    return new uk.co.sketchingdev.pigavrotest.avroschema.Person.Builder(other);
   }
 
   /**
@@ -136,7 +136,7 @@ public class Person extends org.apache.avro.specific.SpecificRecordBase implemen
      * Creates a Builder by copying an existing Builder.
      * @param other The existing Builder to copy.
      */
-    private Builder(com.flyingtophat.pigavrotest.avroschema.Person.Builder other) {
+    private Builder(uk.co.sketchingdev.pigavrotest.avroschema.Person.Builder other) {
       super(other);
       if (isValidValue(fields()[0], other.name)) {
         this.name = data().deepCopy(fields()[0].schema(), other.name);
@@ -152,7 +152,7 @@ public class Person extends org.apache.avro.specific.SpecificRecordBase implemen
      * Creates a Builder by copying an existing Person instance
      * @param other The existing instance to copy.
      */
-    private Builder(com.flyingtophat.pigavrotest.avroschema.Person other) {
+    private Builder(uk.co.sketchingdev.pigavrotest.avroschema.Person other) {
             super(SCHEMA$);
       if (isValidValue(fields()[0], other.name)) {
         this.name = data().deepCopy(fields()[0].schema(), other.name);
@@ -179,7 +179,7 @@ public class Person extends org.apache.avro.specific.SpecificRecordBase implemen
       * @param value The value of 'name'.
       * @return This builder.
       */
-    public com.flyingtophat.pigavrotest.avroschema.Person.Builder setName(java.lang.CharSequence value) {
+    public uk.co.sketchingdev.pigavrotest.avroschema.Person.Builder setName(java.lang.CharSequence value) {
       validate(fields()[0], value);
       this.name = value;
       fieldSetFlags()[0] = true;
@@ -201,7 +201,7 @@ public class Person extends org.apache.avro.specific.SpecificRecordBase implemen
       * Person's name
       * @return This builder.
       */
-    public com.flyingtophat.pigavrotest.avroschema.Person.Builder clearName() {
+    public uk.co.sketchingdev.pigavrotest.avroschema.Person.Builder clearName() {
       name = null;
       fieldSetFlags()[0] = false;
       return this;
@@ -222,7 +222,7 @@ public class Person extends org.apache.avro.specific.SpecificRecordBase implemen
       * @param value The value of 'age'.
       * @return This builder.
       */
-    public com.flyingtophat.pigavrotest.avroschema.Person.Builder setAge(int value) {
+    public uk.co.sketchingdev.pigavrotest.avroschema.Person.Builder setAge(int value) {
       validate(fields()[1], value);
       this.age = value;
       fieldSetFlags()[1] = true;
@@ -244,7 +244,7 @@ public class Person extends org.apache.avro.specific.SpecificRecordBase implemen
       * Person's Age
       * @return This builder.
       */
-    public com.flyingtophat.pigavrotest.avroschema.Person.Builder clearAge() {
+    public uk.co.sketchingdev.pigavrotest.avroschema.Person.Builder clearAge() {
       fieldSetFlags()[1] = false;
       return this;
     }

@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>pig-avro-test</artifactId>
-        <groupId>com.flyingtophat</groupId>
+        <groupId>uk.co.sketchingdev</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -14,7 +14,7 @@
     <dependencies>
         <!-- Internal -->
         <dependency>
-            <groupId>com.flyingtophat</groupId>
+            <groupId>uk.co.sketchingdev</groupId>
             <artifactId>avro-schema</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>test</scope>

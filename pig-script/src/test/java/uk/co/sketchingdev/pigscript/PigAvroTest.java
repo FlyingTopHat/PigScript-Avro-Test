@@ -1,6 +1,6 @@
-package com.flyingtophat.pigscript;
+package uk.co.sketchingdev.pigscript;
 
-import com.flyingtophat.pigavrotest.avroschema.Person;
+import uk.co.sketchingdev.pigavrotest.avroschema.Person;
 import org.apache.avro.Schema;
 import org.apache.avro.file.DataFileWriter;
 import org.apache.avro.generic.GenericDatumWriter;
